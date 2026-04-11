@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let e=(log.value.match(/error|fail/gi)||[]).length;res.innerText=`Issues: ${e}`;}

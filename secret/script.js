@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=(sec.value.match(/token|key|secret/gi)||[]).length;res.innerText=`Potential secrets: ${c}`;}

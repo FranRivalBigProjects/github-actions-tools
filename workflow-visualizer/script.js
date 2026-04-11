@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let s=workflow.value.split('\n').filter(x=>x.trim()).length;res.innerText=`Steps: ${s}`;}

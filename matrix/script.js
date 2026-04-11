@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let j=+jobs.value,v=+variants.value;if(!j||!v){res.innerText='Enter values';return;}res.innerText=`Total builds: ${j*v}`;}
